@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination-btn {
+  padding: 6px 10px;
+  width: 70px;
+  background: grey;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.pagination-items {
+  padding: 6px 10px;
+  width: 15px;
+  background: gray;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}

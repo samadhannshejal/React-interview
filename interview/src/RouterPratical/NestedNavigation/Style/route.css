@@ -1,0 +1,32 @@
+:root {
+  --font-size: 18px;
+}
+.app-container{
+    height: 100%;
+}
+.navigation-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0px 10px;
+  position: fixed;
+  top: 0;
+}
+.nav-links a {
+  margin: 0px 20px;
+  text-decoration: none;
+}
+.nav-title {
+  font-size: var(--font-size);
+  color: green;
+}
+.outlet {
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.user-list-links a{
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.star-container {
+  display: flex;
+  gap: 10px;
+}
+.star {
+  font-size: 40px;
+}
+.on {
+    color:gold ;
+    /* background: gold; */
+}
+.off{
+    color: black;
+}

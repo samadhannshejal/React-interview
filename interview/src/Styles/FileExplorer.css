@@ -1,0 +1,20 @@
+.folder {
+  
+  cursor: pointer;
+}
+.file {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.file-btn{
+   display: flex;
+   gap: 10px;
+}
+.file-btn button{
+  border: none;
+  padding: 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
