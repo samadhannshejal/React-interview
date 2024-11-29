@@ -45,6 +45,7 @@ import Image from "./components/Image";
 import GenricElement from "./components/GenricElement";
 import PasswordStrangth from "./MachineCoding/passwordGenrator/components/PasswordStrangth";
 import Todo from "./MachineCoding/todo/Todo";
+import TodoDemo from "./MachineCoding/demo/Todo";
 const Formik = React.lazy(() => import("./Validation/Formik"));
 // import UseMemo from './Optimization/UseMemo';
 const UseMemo = React.lazy(() => import("./Optimization/UseMemo"));
@@ -97,15 +98,15 @@ function App() {
       {/* <ScrollIndicator/> */}
       {/* <Accordian/> */}
       {/* <ImageSlider/> */}
-      {/* <Calculator/> */}
-      <Tic_tac_toe/>
+      <Calculator/>
+      {/* <Tic_tac_toe/> */}
       {/* <Pagination/> */}
       {/* <StarRating/> */}
       {/* <BreadCrumbRootLayout/> */}
       {/* <Loading loading={true}/> */}
       {/* <FileExplore/> */}
       {/* <GenratePassword/> */}
-      <Todo/>
+      {/* <Todo/> */}
 
       {/* <Button /> */}
       {/* <Input  type="checkbox"children={"please enter"} /> */}
@@ -120,6 +121,10 @@ function App() {
       {/* <UseToggle/> */}
 
       {/* <Pollyfills/> */}
+
+      {/* <Todo/> */}
+
+      {/* <TodoDemo/> */}
     </div>
   );
 }
